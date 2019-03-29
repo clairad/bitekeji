@@ -1,0 +1,21 @@
+﻿生成启动时间为 2019/3/28 21:33:06。
+     1>项目“D:\分享\bitekeji\班级管理\火箭班\0316\test\test\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt d5p4.cpp
+         d5p4.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\火箭班\0316\test\Debug\49032801.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\火箭班\0316\test\Debug\49032801.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\火箭班\0316\test\Debug\49032801.lib" /MACHINE:X86 Debug\d4p1.obj
+         Debug\d4p2.obj
+         Debug\d4p2p.obj
+         Debug\d4p2pp.obj
+         Debug\d4p3.obj
+         Debug\d5p2.obj
+         Debug\d5p3.obj
+         Debug\d5p4.obj
+         test.vcxproj -> D:\分享\bitekeji\班级管理\火箭班\0316\test\Debug\49032801.exe
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\火箭班\0316\test\test\test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.66
