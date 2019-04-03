@@ -1,0 +1,21 @@
+﻿生成启动时间为 2019/4/2 21:31:43。
+     1>项目“D:\分享\bitekeji\班级管理\47班\Project1\Project1\Project1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt d7p2.c
+         d7p2.c
+     1>d:\分享\bitekeji\班级管理\47班\project1\project1\d7p2.c(67): warning C4013: “system”未定义；假设外部返回 int
+     1>d:\分享\bitekeji\班级管理\47班\project1\project1\d7p2.c(28): warning C4716: “reverse_string”: 必须返回一个值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\47班\Project1\Debug\0402.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\47班\Project1\Debug\0402.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\47班\Project1\Debug\0402.lib" /MACHINE:X86 Debug\d6p3.obj
+         Debug\d6p1.obj
+         Debug\d6p2.obj
+         Debug\d6p4.obj
+         Debug\d6p5.obj
+         Debug\d7p1.obj
+         Debug\d7p2.obj
+         Project1.vcxproj -> D:\分享\bitekeji\班级管理\47班\Project1\Debug\0402.exe
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\47班\Project1\Project1\Project1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.63
