@@ -1,0 +1,37 @@
+创建数据库
+CREATE DATABASE rocket;
+
+collate
+默认配置：utf8_general_ci(不区分大小写)
+utf8_bin(区分大小写)
+
+
+进入数据库
+USE rocket;
+
+建立数据表
+CREATE TABLE student (
+	id int,
+	name varchar(20),
+	gender varchar(1),
+	others varchar(100)
+);
+
+插入数据
+INSERT INTO student(id, name, gender, others) values(1, "wangsiqi", 'f', 'charming');
+
+INSERT INTO student(id, name, gender) values(2, "laihaodong", 'm');
+
+查看数据表
+SELECT * from student
+
+
+ALTER DATABASE student collate utf8_bin;
+
+source /home/clairad/rocket.sql;
+
+
+# mysqldump -uroot -p 库名;
+
+
+
