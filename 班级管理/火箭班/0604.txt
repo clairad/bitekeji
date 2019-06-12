@@ -1,0 +1,25 @@
+修改数据库root密码
+
+# mysqladmin -u root -p password
+
+CREATE TABLE test(
+	id INT,
+	name VARCHAR(10)
+);
+
+
+INSERT INTO test(id, name) VALUES(1, '汪仁花');
+
+
+ALTER TABLE 表名 DROP COLUMN 列名
+				 ADD 列名 类型 [FIRST | AFTER{ 待插入的列 }]
+				 ADD PRIMARY KEY(列名)
+				 CHANGE 旧列名 新列名 类型
+
+
+
+
+
+
+
+
