@@ -16,6 +16,10 @@ typedef struct{
 void dequeInit(deque * qu);
 void dequeEmpty(deque * qu);
 int dequePush(deque * qu, DataType x);
+int dequePop(deque * qu);
+DataType dequeBack(deque * qu);
+size_t dequeSize(deque * qu);
+int dequeIsEmpty(deque * qu);
 size_t dequeSize(deque * qu);
 
 

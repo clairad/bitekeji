@@ -31,14 +31,19 @@ int dequePush(deque * qu, DataType x)
 	return 0;
 }
 
-void dequePop(deque * qu)
+int dequePop(deque * qu)
 {
+	if (dequeIsEmpty(qu))
+	{
+		return -1;
+	}
 	qu->_head++;
 	if (qu->_head - qu->_data == QUEUENUM)
 	{
 		qu->_head = qu->_data;
 	}
 	qu->_size--;
+	return 0;
 }
 
 DataType dequeFront(deque * qu)
@@ -46,7 +51,7 @@ DataType dequeFront(deque * qu)
 	return *qu->_head;
 }
 
-/*
+
 DataType dequeBack(deque * qu)
 {
 	if (qu->_tail == qu->_data)
@@ -55,7 +60,7 @@ DataType dequeBack(deque * qu)
 	}
 	return qu->_tail[-1];
 }
-*/
+
 
 int dequeIsEmpty(deque * qu)
 {
