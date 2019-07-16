@@ -85,6 +85,8 @@ CREATE TABLE goods(
 	provider varchar(128)
 );
 
+insert into goods value(1, "篮球", 79.99, "体育用具", "蔡氏篮球有限公司", 2019-01-01);
+
 客户customer(客户号customer_id,姓名name,住址address,邮箱email,性别sex，身份证card_id
 
 CREATE TABLE customer(
@@ -102,6 +104,8 @@ CREATE TABLE purchase(
 	order_id int unsigned primary key,
 	customer_id int unsigned not null,
 	goods_id int unsigned not null,
-	nums int unsigned default 1
+	nums int unsigned default 1,
+	foreign key(customer_id) references customer(customer_id),
+	foreign key(goods_id) references goods(goods_id)
 );
 

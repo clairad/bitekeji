@@ -1,0 +1,16 @@
+﻿生成启动时间为 2019/7/16 16:09:59。
+     1>项目“D:\分享\bitekeji\班级管理\60班\0716\0715\0715.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (0715.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>d:\分享\bitekeji\班级管理\60班\0716\0715\main.c(21): warning C4101: “j”: 未引用的局部变量
+     1>d:\分享\bitekeji\班级管理\60班\0716\0715\main.c(130): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\60班\0716\Debug\0716.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\60班\0716\Debug\0716.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\60班\0716\Debug\0716.lib" /MACHINE:X86 Debug\main.obj
+         0715.vcxproj -> D:\分享\bitekeji\班级管理\60班\0716\Debug\0716.exe
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\60班\0716\0715\0715.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.63
