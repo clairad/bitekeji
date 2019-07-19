@@ -23,4 +23,7 @@ void SListPrint(SListNode* phead);
 
 void SListReverse(SListNode **pphead);
 void SListReverse2(SListNode **pphead);
+
+SListNode *getIntersectionNode(SListNode *headA, SListNode *headB);
+SListNode *detectCycle(SListNode *head);
 #endif /*_SLIST_H_*/ //_SLIST_H_

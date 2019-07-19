@@ -3,6 +3,49 @@
 
 int main()
 {
+	SListNode *phead1;
+	//SListNode *phead2;
+	SListNode *tmp;
+	SListNode *tmp2;
+
+	SListInit(&phead1);
+	//SListInit(&phead2);
+
+	
+	SListPushFront(&phead1, 8);
+	tmp = phead1;
+	SListPushFront(&phead1, 7);
+	SListPushFront(&phead1, 6);
+	SListPushFront(&phead1, 5);
+	SListPushFront(&phead1, 4);
+	SListPushFront(&phead1, 3);
+	tmp2 = phead1;
+	SListPushFront(&phead1, 2);
+	SListPushFront(&phead1, 1);
+	
+	tmp->next = tmp2;
+	
+
+	//phead2->next = phead1->next->next;
+
+	
+	SListNode * ret = detectCycle(phead1);
+	if (ret)
+	{
+		printf("%d\n", ret->data);
+	}
+	else
+	{
+		printf("NULL\n");
+	}
+	
+	//SListDestory(&phead1);
+	//SListDestory(&phead2);
+	return 0;
+}
+
+int _main()
+{
 	SListNode *phead;
 
 	SListInit(&phead);
@@ -36,12 +79,12 @@ int main()
 	return 0;
 }
 
-int _main()
+int yosuf()
 {
 	SListNode *phead;
 	SListNode *plast;
 	SListNode *cur;
-	int m = 6, n = 5;
+	int m = 50, n = 3;
 	int i;
 	SListInit(&phead);
 
@@ -59,11 +102,13 @@ int _main()
 		for (i = 1; i < n; i++)
 		{
 			cur = cur->next;
+			printf("%dºÅ±¨%d\n", cur->data, i);
 		}
+		printf("%dºÅ³öÈ¦\n", cur->next->data);
 		SListEraseAfter(cur);
 	}
 
-	printf("%d", cur->data);
+	printf("%dºÅÊ¤Àû\n", cur->data);
 
 	free(cur);
 	return 0;

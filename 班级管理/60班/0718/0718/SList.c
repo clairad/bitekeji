@@ -1,5 +1,6 @@
 #include "SList.h"
 #include <stdio.h>
+#include <math.h>
 
 SListNode* BuySListNode(SLTDataType x)
 {
@@ -168,4 +169,71 @@ void SListReverse2(SListNode **pphead)
 	}
 
 	*pphead = pre; //循环跳出后cur和next都已经指向空了，pre才是新的头
+}
+
+SListNode *getIntersectionNode(SListNode *headA, SListNode *headB)
+{
+	int lenA = 0;
+	int lenB = 0;
+	int gap;
+	int i;
+	SListNode * cur;
+	SListNode * longerlist = headA;
+	SListNode * shorterlist = headB;
+
+	for (cur = headA; cur; cur = cur->next)
+	{
+		lenA++;
+	}
+
+	for (cur = headB; cur; cur = cur->next)
+	{
+		lenB++;
+	}
+
+	gap = abs(lenA - lenB);
+	if (lenA < lenB)
+	{
+		longerlist = headB;
+		shorterlist = headA;
+	}
+
+	for (i = 0; i < gap; i++)
+	{
+		longerlist = longerlist->next;
+	}
+	
+	for (; longerlist && shorterlist; longerlist = longerlist->next, shorterlist = shorterlist->next)
+	{
+		if (longerlist == shorterlist)
+		{
+			return longerlist;
+		}
+	}
+	return NULL;
+}
+
+SListNode *detectCycle(SListNode *head)
+{
+	SListNode * fast = head;
+	SListNode * slow = head;
+
+	while (fast && slow && fast->next)
+	{
+		fast = fast->next->next;
+		slow = slow->next;
+		if (fast == slow)
+		{
+			break;
+		}
+	}
+
+	for (; fast && fast->next; fast = fast->next, head = head->next)
+	{
+		if (fast == head)
+		{
+			return fast;
+		}
+	}
+	return NULL;
 }
