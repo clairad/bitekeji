@@ -2,6 +2,7 @@
 #define _LIST_H_
 
 typedef int LTDataType;
+
 typedef struct ListNode {
 	LTDataType _data;
 	struct ListNode* _next;
@@ -27,6 +28,9 @@ void ListInsertAfter(ListNode* pos, LTDataType x);
 // 删除pos位置的节点
 void ListErase(ListNode* pos);
 void ListRemove(List* plist, LTDataType x);
+
+void ListDistinct(List* plist);
+void ListMerge(List* plist1, List* plist2);
 
 void ListPrint(List* plist);
 
