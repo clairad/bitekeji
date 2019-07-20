@@ -1,5 +1,6 @@
 #include "List.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 void ListInit(List* plist)
 {
@@ -43,7 +44,7 @@ ListNode* ListFind(List* plist, LTDataType x)
 
 	for (cur = plist->_head->_next; cur != plist->_head; cur = cur->_next)
 	{
-		if (cur->_data == x)
+		if (Contactcmp(cur->_data, x) == 0)
 		{
 			return cur;
 		}
@@ -99,7 +100,7 @@ void ListDistinct(List* plist)
 	ListNode * cur;
 	for (cur = plist->_head->_next; cur != plist->_head->_prev; )
 	{
-		if (cur->_data == cur->_next->_data)
+		if (Contactcmp(cur->_data, cur->_next->_data) == 0)
 		{
 			ListErase(cur->_next);
 		}
@@ -117,7 +118,7 @@ void ListMerge(List* plist1, List* plist2)
 	ListNode *tmp1, *tmp2;
 	while (cur1 != plist1->_head && cur2 != plist2->_head)//双链表遍历的跳出条件
 	{
-		if (cur1->_data > cur2->_data) //如果链表1当前节点的数据比链表2的大，说明链表2的这个节点应该插到链表1的当前节点前面
+		if (Contactcmp(cur1->_data, cur2->_data) > 0) //如果链表1当前节点的数据比链表2的大，说明链表2的这个节点应该插到链表1的当前节点前面
 		{
 			tmp1 = cur1->_prev; //由于cur1的prev会被修改，这里做一个备份
 			tmp2 = cur2->_next; //由于cur2的next会被修改，这里做一个备份
@@ -157,7 +158,7 @@ void ListPrint(List* plist)
 	printf("head->");
 	for (cur = plist->_head->_next; cur != plist->_head; cur = cur->_next)
 	{
-		printf("%d->", cur->_data);
+		printData(cur->_data);
 	}
 	printf("head");
 }

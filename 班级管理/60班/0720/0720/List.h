@@ -1,7 +1,9 @@
 #ifndef _LIST_H_
 #define _LIST_H_
 
-typedef int LTDataType;
+#include "contact.h"
+
+typedef Contact LTDataType;
 
 typedef struct ListNode {
 	LTDataType _data;
