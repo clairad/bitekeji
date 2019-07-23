@@ -1,0 +1,34 @@
+﻿生成启动时间为 2019/7/22 14:41:04。
+     1>项目“D:\分享\bitekeji\班级管理\60班\0721\0721\0721.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt List.c seqlist.c
+         seqlist.c
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\seqlist.c(61): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\seqlist.c(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\seqlist.c(88): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\seqlist.c(99): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\seqlist.c(120): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\seqlist.c(132): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\seqlist.c(134): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\seqlist.c(203): warning C4018: “<”: 有符号/无符号不匹配
+         List.c
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(31): error C2371: “Contact”: 重定义；不同的基类型
+                 d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(24) : 参见“Contact”的声明
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(31): error C2146: 语法错误: 缺少“;”(在标识符“c”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(31): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(32): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(32): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(32): error C2059: 语法错误:“类型”
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(32): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(33): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(33): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(33): error C2059: 语法错误:“类型”
+     1>d:\分享\bitekeji\班级管理\60班\0721\0721\contact.h(33): error C2059: 语法错误:“)”
+         正在生成代码...
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\60班\0721\0721\0721.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.34

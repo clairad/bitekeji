@@ -1,14 +1,15 @@
 #ifndef _LIST_H_
 #define _LIST_H_
 
+#include "seqlist.h"
 #include "contact.h"
 
-typedef Contact LTDataType;
+typedef struct Contact LTDataType;
 
 typedef struct ListNode {
-	LTDataType _data;
 	struct ListNode* _next;
 	struct ListNode* _prev;
+	LTDataType * _data;
 }ListNode;
 
 typedef struct List {
@@ -23,8 +24,6 @@ void ListPopBack(List* plist);
 void ListPushFront(List* plist, LTDataType x);
 void ListPopFront(List* plist);
 
-ListNode* ListFind(List* plist, LTDataType x);
-
 void ListInsertFront(ListNode* pos, LTDataType x);
 void ListInsertAfter(ListNode* pos, LTDataType x);
 // 删除pos位置的节点
@@ -35,5 +34,8 @@ void ListDistinct(List* plist);
 void ListMerge(List* plist1, List* plist2);
 
 void ListPrint(List* plist);
+void ListRankInsert(List *plist, LTDataType x);
+
+void ListFind(List *plist, char *find, SeqList *psl);
 
 #endif /*_LIST_H_*/

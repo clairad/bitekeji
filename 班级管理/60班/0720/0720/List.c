@@ -38,20 +38,6 @@ void ListPopFront(List* plist)
 	ListErase(plist->_head->_next);
 }
 
-ListNode* ListFind(List* plist, LTDataType x)
-{
-	ListNode * cur;
-
-	for (cur = plist->_head->_next; cur != plist->_head; cur = cur->_next)
-	{
-		if (Contactcmp(cur->_data, x) == 0)
-		{
-			return cur;
-		}
-	}
-	return NULL;
-}
-
 void ListInsertFront(ListNode* pos, LTDataType x)
 {
 	ListNode * cur = (ListNode *)malloc(sizeof(ListNode));
@@ -84,7 +70,7 @@ void ListErase(ListNode* pos)
 	pos->_next->_prev = pos->_prev;
 	free(pos);
 }
-
+/*
 void ListRemove(List* plist, LTDataType x)
 {
 	ListNode * cur = ListFind(plist, x);
@@ -93,7 +79,7 @@ void ListRemove(List* plist, LTDataType x)
 	{
 		ListErase(cur);
 	}
-}
+}*/
 
 void ListDistinct(List* plist)
 {
@@ -109,6 +95,20 @@ void ListDistinct(List* plist)
 			cur = cur->_next;
 		}
 	}
+}
+
+void ListRankInsert(List *plist, LTDataType x)
+{
+	ListNode * cur;
+
+	for (cur = plist->_head->_next; cur != plist->_head; cur = cur->_next)
+	{
+		if (Contactcmp(cur->_data, x) >= 0)
+		{
+			break;
+		}
+	}
+	ListInsertFront(cur, x);
 }
 
 void ListMerge(List* plist1, List* plist2)
@@ -161,4 +161,48 @@ void ListPrint(List* plist)
 		printData(cur->_data);
 	}
 	printf("head");
+}
+
+void ListFind(List *plist, char *find, SeqList *psl)
+{
+	ListNode * cur;
+	int flag;
+	char * ret;
+	char age[4];
+	for (cur = plist->_head->_next; cur != plist->_head; cur = cur->_next)
+	{
+		do{
+			flag = 1;
+			ret = strstr(cur->_data.name, find);
+			if (ret)
+			{
+				break;
+			}
+
+			ret = strstr(cur->_data.phonenum, find);
+			if (ret)
+			{
+				break;
+			}
+
+			sprintf(age, "%d", cur->_data.age);
+			if (!strcmp(age, find))
+			{
+				break;
+			}
+
+			ret = strstr(cur->_data.address, find);
+			if (ret)
+			{
+				break;
+			}
+
+			flag = 0;
+		} while (0);
+
+		if (flag)
+		{
+			SeqListPushBack(psl, cur);
+		}
+	}
 }

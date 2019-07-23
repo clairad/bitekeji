@@ -24,12 +24,18 @@
     <ClCompile Include="contact.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="seqlist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="contact.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seqlist.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

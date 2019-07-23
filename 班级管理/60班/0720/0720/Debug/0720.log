@@ -1,16 +1,227 @@
-﻿生成启动时间为 2019/7/20 12:27:25。
+﻿生成启动时间为 2019/7/22 11:57:03。
      1>项目“D:\分享\bitekeji\班级管理\60班\0720\0720\0720.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt contact.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt List.c contact.c main.c seqlist.c
+         seqlist.c
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(7): error C2061: 语法错误: 标识符“LTDataType”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(7): error C2059: 语法错误:“;”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(10): error C2016: C 要求一个结构或联合至少有一个成员
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(10): error C2061: 语法错误: 标识符“LTDataType”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(13): error C2059: 语法错误:“}”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(16): error C2016: C 要求一个结构或联合至少有一个成员
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(16): error C2061: 语法错误: 标识符“ListNode”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(17): error C2059: 语法错误:“}”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(19): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(19): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(19): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(20): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(20): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(20): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(22): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(22): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(22): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(22): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(23): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(23): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(23): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(24): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(24): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(24): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(24): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(25): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(25): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(25): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(27): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(27): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(27): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(27): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(28): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(28): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(28): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(28): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(30): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(30): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(30): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(31): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(31): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(33): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(33): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(33): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(34): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(34): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(34): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(34): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(36): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(36): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(36): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(37): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(37): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(37): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(37): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(39): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(39): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(39): error C2059: 语法错误:“类型”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(39): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2371: “Contact”: 重定义；不同的基类型
+                 d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(22) : 参见“Contact”的声明
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2146: 语法错误: 缺少“;”(在标识符“c”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2061: 语法错误: 标识符“contactFind”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2059: 语法错误:“;”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2059: 语法错误:“类型”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(31): error C2059: 语法错误:“类型”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(31): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.c(61): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.c(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.c(88): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.c(99): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.c(120): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.c(132): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.c(134): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.c(203): warning C4018: “<”: 有符号/无符号不匹配
+         main.c
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(11): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(14): error C2016: C 要求一个结构或联合至少有一个成员
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(14): error C2061: 语法错误: 标识符“SLDataType”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(17): error C2059: 语法错误:“}”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(20): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(20): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(20): warning C4142: 类型的良性重定义
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(20): error C2370: “size_t”: 重定义；不同的存储类
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(496) : 参见“size_t”的声明
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(20): error C2146: 语法错误: 缺少“;”(在标识符“capacity”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(20): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(21): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(21): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(21): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(23): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(23): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(23): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(24): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(24): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(24): error C2040: “SLDataType”:“int”与“int *”的间接寻址级别不同
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(24): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(24): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(25): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(25): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(25): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(26): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(26): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(26): error C2040: “SLDataType”:“int”与“int *”的间接寻址级别不同
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(26): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(26): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(27): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(27): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(27): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(29): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(29): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(29): error C2040: “SLDataType”:“int”与“int *”的间接寻址级别不同
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(29): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(29): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(30): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(30): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(30): warning C4142: 类型的良性重定义
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(30): error C2370: “size_t”: 重定义；不同的存储类
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(496) : 参见“size_t”的声明
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(30): error C2146: 语法错误: 缺少“;”(在标识符“pos”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(30): error C2040: “SLDataType”:“int”与“int *”的间接寻址级别不同
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(30): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(30): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(31): warning C4142: 类型的良性重定义
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(31): error C2370: “size_t”: 重定义；不同的存储类
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(496) : 参见“size_t”的声明
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(31): error C2146: 语法错误: 缺少“;”(在标识符“pos”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(31): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(32): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(32): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(32): error C2040: “SLDataType”:“int”与“int *”的间接寻址级别不同
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(32): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(32): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(33): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(33): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(33): warning C4142: 类型的良性重定义
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(33): error C2370: “size_t”: 重定义；不同的存储类
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(496) : 参见“size_t”的声明
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(33): error C2146: 语法错误: 缺少“;”(在标识符“pos”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(33): error C2040: “SLDataType”:“int”与“int *”的间接寻址级别不同
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(33): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(33): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(34): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(34): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(34): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(36): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(36): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(36): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(37): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(37): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(37): error C2040: “SLDataType”:“int”与“int *”的间接寻址级别不同
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(37): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(37): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(38): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(38): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(38): error C2040: “SLDataType”:“int”与“int *”的间接寻址级别不同
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(38): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\seqlist.h(38): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(7): error C2061: 语法错误: 标识符“LTDataType”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(7): error C2059: 语法错误:“;”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(10): error C2016: C 要求一个结构或联合至少有一个成员
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(10): error C2061: 语法错误: 标识符“LTDataType”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(13): error C2059: 语法错误:“}”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(16): error C2016: C 要求一个结构或联合至少有一个成员
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(16): error C2061: 语法错误: 标识符“ListNode”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(17): error C2059: 语法错误:“}”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(19): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(19): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(19): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(20): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(20): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(20): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(22): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(22): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(22): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(22): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(23): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(23): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(23): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(24): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(24): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(24): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(24): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.h(24): fatal error C1003: 错误计数超过 100；正在停止编译
          contact.c
-     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.c(36): warning C4716: “createData”: 必须返回一个值
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\60班\0720\Debug\0720.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\60班\0720\Debug\0720.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\60班\0720\Debug\0720.lib" /MACHINE:X86 Debug\contact.obj
-         Debug\List.obj
-         Debug\main.obj
-         0720.vcxproj -> D:\分享\bitekeji\班级管理\60班\0720\Debug\0720.exe
-     1>已完成生成项目“D:\分享\bitekeji\班级管理\60班\0720\0720\0720.vcxproj”(Build 个目标)的操作。
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.c : fatal error C1041: 无法打开程序数据库“d:\分享\bitekeji\班级管理\60班\0720\0720\debug\vc120.idb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         List.c
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2371: “Contact”: 重定义；不同的基类型
+                 d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(22) : 参见“Contact”的声明
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2146: 语法错误: 缺少“;”(在标识符“c”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(29): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2061: 语法错误: 标识符“contactFind”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2059: 语法错误:“;”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2059: 语法错误:“类型”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(30): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(31): error C2059: 语法错误:“类型”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\contact.h(31): error C2059: 语法错误:“)”
+     1>d:\分享\bitekeji\班级管理\60班\0720\0720\list.c(205): warning C4133: “函数”: 从“ListNode *”到“SLDataType”的类型不兼容
+         正在生成代码...
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\60班\0720\0720\0720.vcxproj”(Build 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:01.14
+已用时间 00:00:00.99

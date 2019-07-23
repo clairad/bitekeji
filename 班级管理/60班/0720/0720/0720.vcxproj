@@ -68,10 +68,12 @@
     <ClCompile Include="contact.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="seqlist.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="contact.h" />
     <ClInclude Include="List.h" />
+    <ClInclude Include="seqlist.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

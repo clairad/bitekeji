@@ -2,49 +2,65 @@
 #include <string.h>
 #include <stdio.h>
 
-/*
-void searchData(char * find, int * searchres)
+void contactAdd(List * plist, Contact c)
 {
-	int i, flag;
-	char age[4] = { 0 };
-	char * ret;
-	for (i = 0; i < g_count; i++)
+	ListRankInsert(plist, c);
+}
+
+SeqList contactSearch(List * plist, char * find)
+{
+	SeqList sl;
+
+	SeqListInit(&sl, 100);
+
+	ListFind(plist, find, &sl);
+
+	if (sl.size == 0)
 	{
-		do{
-			flag = 1;
-			ret = strstr(g_allMsg[i].name, find);
-			if (ret)
-			{
-				break;
-			}
-
-			ret = strstr(g_allMsg[i].telnum, find);
-			if (ret)
-			{
-				break;
-			}
-
-			sprintf(age, "%d", g_allMsg[i].age);
-			if (!strcmp(age, find))
-			{
-				break;
-			}
-
-			ret = strstr(g_allMsg[i].addr, find);
-			if (ret)
-			{
-				break;
-			}
-
-			flag = 0;
-		} while (0);
-
-		if (flag)
-		{
-			searchres[0]++;
-			searchres[searchres[0]] = i;
-		}
+		printf("没有找到数据\n");
 	}
+	else
+	{
+		printf("共找到%d条数据\n", sl.size);
+		SeqListPrint(&sl);
+	}
+
+	return sl;
+}
+
+void contactFind(List * plist, char * find)
+{
+	SeqList sl = contactSearch(plist, find);
+	SeqListDestory(&sl);
+}
+
+void contactDelete(List * plist, char * find)
+{
+	SeqList sl = contactSearch(plist, find);
+	if (sl.size == 0)
+	{
+		printf("删除失败\n");
+	}
+	else if (sl.size == 1)
+	{
+		ListErase(sl.array[0]);
+		printf("删除成功\n");
+	}
+	else if (sl.size > 1)
+	{
+		int del;
+		printf("请选择要删除的条目:\n");
+		scanf("%d", &del);
+		ListErase(sl.array[del - 1]);
+		printf("删除成功\n");
+	}
+
+	SeqListDestroy(&sl, 100);
+}
+/*
+void contactChange()
+{
+
 }
 */
 
