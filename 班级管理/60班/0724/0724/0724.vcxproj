@@ -66,9 +66,11 @@
   <ItemGroup>
     <ClCompile Include="BTree.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="queue.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BTree.h" />
+    <ClInclude Include="queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

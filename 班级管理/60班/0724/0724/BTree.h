@@ -12,7 +12,13 @@ typedef struct BinaryTreeNode
 	struct BinaryTreeNode* _right;
 }BTNode;
 
+
 BTNode* BinaryTreeCreate(BTDataType* a);
+void BinaryTreePrevOrder(BTNode* root);
+void BinaryTreeInOrder(BTNode* root);
+void BinaryTreePostOrder(BTNode* root);
+
+void BinaryTreeLevelOrder(BTNode* root);
 
 
 #endif /*_BTREE_H_*/
