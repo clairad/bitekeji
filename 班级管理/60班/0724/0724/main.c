@@ -5,11 +5,11 @@ int main()
 {
 	BTNode * testTree = BinaryTreeCreate("ABDF####CE#GH##I#J###");
 
-	BinaryTreePrevOrder(testTree);
+	BinaryTreePrevOrderNonR(testTree);
 	putchar('\n');
-	BinaryTreeInOrder(testTree);
+	BinaryTreeInOrderNonR(testTree);
 	putchar('\n');
-	BinaryTreePostOrder(testTree);
+	BinaryTreePostOrderNonR(testTree);
 	putchar('\n');
 	BinaryTreeLevelOrder(testTree);
 	putchar('\n');
