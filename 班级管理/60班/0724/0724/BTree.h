@@ -20,5 +20,6 @@ void BinaryTreePostOrder(BTNode* root);
 
 void BinaryTreeLevelOrder(BTNode* root);
 
-
+void BinaryTreePrevOrderNonR(BTNode* root);
+void BinaryTreeInOrderNonR(BTNode* root);
 #endif /*_BTREE_H_*/
