@@ -108,6 +108,68 @@ void BinaryTreePrevOrderNonR(BTNode* root)
 
 void BinaryTreeInOrderNonR(BTNode* root)
 {
+	BTNode * cur = root;
+
+	Stack st;
+	StackInit(&st, 100);
+
+	while (cur || !StackIsEmpty(&st))
+	{
+		for (; cur; cur = cur->_left)
+		{
+			StackPush(&st, cur);
+		}
+
+		if (!StackIsEmpty(&st))
+		{
+			cur = StackFront(&st);
+			putchar(cur->_data);
+			StackPop(&st);
+			cur = cur->_right;
+		}
+	}
+	StackDestory(&st);
+}
+
+
+void BinaryTreePostOrderNonR(BTNode* root)
+{
+	BTNode * cur = root;
+
+	Stack st;
+	int tag[32] = { 0 };
+
+	StackInit(&st, 100);
+
+	while (cur || !StackIsEmpty(&st))
+	{
+		for (; cur; cur = cur->_left)
+		{
+			StackPush(&st, cur);
+			tag[st.size] = 0;
+		}
+
+		while (!StackIsEmpty(&st) && tag[st.size] == 1)
+		{
+			cur = StackFront(&st);
+			putchar(cur->_data);
+			StackPop(&st);
+			cur = NULL;
+		}
+
+		if (!StackIsEmpty(&st))
+		{
+			tag[st.size] = 1;
+			cur = StackFront(&st)->_right;
+		}
+	}
+	StackDestory(&st);
+}
+
+
+/*
+void BinaryTreeInOrderNonR(BTNode* root)
+{
 	Stack st;
 	BTNode * cur = root;
 
@@ -211,3 +273,5 @@ void BinaryTreePostOrderNonR(BTNode* root)
 
 	StackDestory(&st);
 }
+*/
+
