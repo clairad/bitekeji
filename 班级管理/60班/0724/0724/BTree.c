@@ -32,6 +32,20 @@ void BinaryTreePrevOrder(BTNode* root)
 	}
 }
 
+void BinaryTreeDestory(BTNode* root)
+{
+	BTNode *left, *right;
+
+	if (root)
+	{
+		left = root->_left;
+		right = root->_right;
+		free(root);
+		BinaryTreeDestory(left);
+		BinaryTreeDestory(right);
+	}
+}
+
 void BinaryTreeInOrder(BTNode* root)
 {
 	if (root != NULL)
@@ -175,6 +189,51 @@ void BinaryTreePostOrderNonR(BTNode* root)
 	StackDestory(&st);
 }
 
+int BinaryTreeComplete(BTNode* root)
+{
+	Queue qu;
+	BTNode * tmp;
+	int leafflag = 0;
+
+	QueueInit(&qu);
+
+	QueuePush(&qu, root);
+	while (!QueueIsEmpty(&qu))
+	{
+		tmp = QueueFront(&qu);
+		printf("%c", tmp->_data);
+
+		QueuePop(&qu);
+		if (leafflag)
+		{
+			if (tmp->_left || tmp->_right)
+			{ 
+				return 0;
+			}
+			continue;
+		}
+
+		if (tmp->_left && tmp->_right)
+		{
+			QueuePush(&qu, tmp->_left);
+			QueuePush(&qu, tmp->_right);
+		}
+		else if (tmp->_right && !tmp->_left)
+		{
+			return 0;
+		}
+		else
+		{
+			leafflag = 1;
+			if (tmp->_left)
+			{
+				QueuePush(&qu, tmp->_left);
+			}
+		}
+	}
+	QueueDestory(&qu);
+	return 1;
+}
 
 /*
 void BinaryTreeInOrderNonR(BTNode* root)

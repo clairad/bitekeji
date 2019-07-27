@@ -14,11 +14,16 @@ typedef struct BinaryTreeNode
 
 
 BTNode* BinaryTreeCreate(BTDataType* a);
+void BinaryTreeDestory(BTNode* root);
+
+
 void BinaryTreePrevOrder(BTNode* root);
 void BinaryTreeInOrder(BTNode* root);
 void BinaryTreePostOrder(BTNode* root);
 
 void BinaryTreeLevelOrder(BTNode* root);
+
+int BinaryTreeComplete(BTNode* root);
 
 void BinaryTreePrevOrderNonR(BTNode* root);
 void BinaryTreeInOrderNonR(BTNode* root);

@@ -3,8 +3,10 @@
 
 int main()
 {
-	BTNode * testTree = BinaryTreeCreate("ABDF####CE#GH##I#J###");
-
+	//BTNode * testTree = BinaryTreeCreate("ABDF####CE#GH##I#J###");
+	BTNode * testTree = BinaryTreeCreate("ABDH##I##EJ###CF##G##");
+	//BTNode * testTree = BinaryTreeCreate("ABD##EJ###CF##G##");
+	
 	BinaryTreePrevOrderNonR(testTree);
 	putchar('\n');
 	BinaryTreeInOrderNonR(testTree);
@@ -13,6 +15,9 @@ int main()
 	putchar('\n');
 	BinaryTreeLevelOrder(testTree);
 	putchar('\n');
+
+	printf("%d\n", BinaryTreeComplete(testTree));
+	
 	return 0;
 }
 
