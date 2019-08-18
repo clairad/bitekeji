@@ -1,6 +1,7 @@
 #ifndef _BTREE_H_
 #define _BTREE_H_
 
+
 typedef char BTDataType;
 
 typedef struct BinaryTreeNode {
@@ -10,7 +11,13 @@ typedef struct BinaryTreeNode {
 }BTNode;
 
 BTNode *BinaryTreeCreate(BTDataType * src);
+void BinaryTreeDestory(BTNode* root);
 
+void BinaryTreePrevOrder(BTNode* root);
+void BinaryTreeInOrder(BTNode* root);
+void BinaryTreePostOrder(BTNode* root);
+void BinaryTreeLevelOrder(BTNode* root);
 
+void BinaryTreePrevOrderNonR(BTNode* root);
 
 #endif /*_BTREE_H_*/

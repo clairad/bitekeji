@@ -21,9 +21,21 @@
     <ClCompile Include="BTree.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="queue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
