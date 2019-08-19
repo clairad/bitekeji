@@ -19,7 +19,21 @@ int main()
 	BinaryTreePrevOrderNonR(root);
 	putchar('\n');
 
+	BinaryTreeInOrderNonR(root);
+	putchar('\n');
+
+	BinaryTreePostOrderNonR(root);
+	putchar('\n');
+
+	printf("%d\n", BinaryTreeComplete(root));
+
 	BinaryTreeDestory(root);
+
+	BTNode * root2 = BinaryTreeCreate("ABDH##I##EJ###CF##G##");
+
+	printf("%d\n", BinaryTreeComplete(root2));
+
+	BinaryTreeDestory(root2);
 	return 0;
 }
 /*
