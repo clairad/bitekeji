@@ -59,7 +59,7 @@ int d15p2()
 	return 0;
 }
 
-int main()
+int extra()
 {
 	char str[] = "bi,te.ke-ji";
 
@@ -69,6 +69,60 @@ int main()
 	puts(strtok(NULL, ",.-"));
 	puts(strtok(NULL, ",.-"));
 	puts(strtok(NULL, ",.-"));
+
+	return 0;
+}
+
+int num;
+int countnum(int n)
+{
+	num++;
+	int i;
+	for (i = 1; i <= n / 2; i++)
+	{
+		countnum(i);
+	}
+	return num;
+}
+
+int luogu1028()
+{
+	int n = 7;
+	int a[1002] = { 0 };
+
+	a[1] = 1;
+
+	int i;
+	for (i = 2; i <= n; i += 2)
+	{
+		a[i + 1] = a[i] = a[i - 1] + a[i / 2];
+	}
+	
+	printf("%d", a[n]);
+	return 0;
+}
+
+void choosenum(int *src, int n, int k, int res, int start)
+{
+	if (k <= 0)
+	{
+		printf("%d\n", res);
+		return;
+	}
+
+	int i;
+	for (i = start; i <= n - k; i++)
+	{
+		choosenum(src, n, k - 1, res + src[i], i + 1);
+	}
+}
+
+int main()
+{
+	int a[20] = { 1, 2, 3, 4, 5, 6, 7, 8 };
+	int n = 8, k = 4;
+
+	choosenum(a, n, k, 0, 0);
 
 	return 0;
 }
