@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/8/25 12:27:56。
+     1>项目“D:\分享\bitekeji\班级管理\63班\0825\0825\0825.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main2.cpp
+         main2.cpp
+     1>d:\分享\bitekeji\班级管理\63班\0825\0825\main2.cpp(37): error C2556: “short add(short,short)”: 重载函数与“int add(short,short)”只是在返回类型上不同
+                 d:\分享\bitekeji\班级管理\63班\0825\0825\main2.cpp(31) : 参见“add”的声明
+     1>d:\分享\bitekeji\班级管理\63班\0825\0825\main2.cpp(37): error C2371: “add”: 重定义；不同的基类型
+                 d:\分享\bitekeji\班级管理\63班\0825\0825\main2.cpp(31) : 参见“add”的声明
+     1>d:\分享\bitekeji\班级管理\63班\0825\0825\main2.cpp(49): warning C4305: “初始化”: 从“double”到“float”截断
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\63班\0825\0825\0825.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.81
