@@ -1,0 +1,11 @@
+﻿生成启动时间为 2019/8/26 12:30:49。
+     1>项目“D:\分享\bitekeji\班级管理\63班\0826\0826\0826.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main4.cpp
+         main4.cpp
+     1>d:\分享\bitekeji\班级管理\63班\0826\0826\main4.cpp(40): error C3532: 数组的元素类型不能是包含“auto”的类型
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\63班\0826\0826\0826.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.84
