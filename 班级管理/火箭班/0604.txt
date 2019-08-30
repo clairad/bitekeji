@@ -1,6 +1,6 @@
 修改数据库root密码
 
-# mysqladmin -u root -p password
+
 
 CREATE TABLE test(
 	id INT,

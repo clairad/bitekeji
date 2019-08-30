@@ -1,15 +1,18 @@
-﻿生成启动时间为 2019/8/29 12:17:43。
-     1>项目“D:\分享\bitekeji\班级管理\63班\0829\0829\0829.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2019/8/30 10:40:43。
+     1>项目“D:\分享\bitekeji\班级管理\47班\0829\0829\0829.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt hw1.cpp hw2.cpp main.cpp
          main.cpp
+         hw2.cpp
+         hw1.cpp
+         正在生成代码...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\63班\0829\Debug\0829.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\63班\0829\Debug\0829.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\63班\0829\Debug\0829.lib" /MACHINE:X86 Debug\hw1.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\47班\0829\Debug\0829.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\47班\0829\Debug\0829.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\47班\0829\Debug\0829.lib" /MACHINE:X86 Debug\hw1.obj
          Debug\hw2.obj
          Debug\main.obj
-         0829.vcxproj -> D:\分享\bitekeji\班级管理\63班\0829\Debug\0829.exe
-     1>已完成生成项目“D:\分享\bitekeji\班级管理\63班\0829\0829\0829.vcxproj”(Build 个目标)的操作。
+         0829.vcxproj -> D:\分享\bitekeji\班级管理\47班\0829\Debug\0829.exe
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\47班\0829\0829\0829.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.05
+已用时间 00:00:03.55

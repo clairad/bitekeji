@@ -22,7 +22,7 @@ public:
 	{
 	}
 
-	Poker(char type, int point) :
+	explicit Poker(char type, int point) :
 		m_type(type),
 		m_point(point)
 	{
