@@ -224,8 +224,14 @@ select dname, dept.deptno, loc, count(*) as pnum from dept, emp where dept.deptn
 
 select ename, sal, job from emp where sal>2500 union select ename, sal, job from emp where job='MANAGER';
 
-select ename, sal, job from emp where sal>2500 or job='MANAGER';
 
+select ename, sal, job from emp where sal>2500 union all select ename, sal, job from emp where job='MANAGER';
+
+
+
+
+insert into emp (empno, ename, job, mgr, hiredate, sal, comm, deptno)
+values (7911, 'WHITE', 'SALESMAN', 7521, '1982-03-31', 1350, 100, null);
 
 
 
