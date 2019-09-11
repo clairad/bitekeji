@@ -66,7 +66,6 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main2.cpp" />
-    <ClCompile Include="seqlist.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="seqlist.h" />

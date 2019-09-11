@@ -1,5 +1,6 @@
 #include <iostream>
 #include "seqlist.h"
+#include <vector>
 using namespace std;
 
 template <class T>
@@ -32,11 +33,34 @@ int main()
 	a.setData(8);
 	a.showData();*/
 
-	SeqList<int> sl;
+	/*SeqList<double> sl(10);
 
-	sl.push_back(6);
-	sl.push_back(7);
+	int i;
+	for (i = 0; i < sl.size(); i++)
+	{
+		sl[i] = (i + 1) * 0.15;
+	}
 
-	cout << sl.size() << endl;
+	sl.pop_back();
+
+	for (i = 0; i < sl.size(); i++)
+	{
+		cout << sl[i] << endl;
+	}*/
+
+	vector<double> v;
+	
+	int i;
+	for (i = 0; i < 10; i++)
+	{
+		v.push_back(i + 1);
+	}
+
+	v.pop_back();
+
+	for (i = 0; i < v.size(); i++)
+	{
+		cout << v[i] << endl;
+	}
 	return 0;
 }

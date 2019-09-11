@@ -1,8 +1,9 @@
-﻿生成启动时间为 2019/9/7 12:37:42。
+﻿生成启动时间为 2019/9/11 19:30:48。
      1>项目“D:\分享\bitekeji\班级管理\47班\日期\日期\日期.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
+     1>cl : 命令行 warning D9028: 最小重新生成失败，正在转换为标准生成
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\47班\日期\Debug\日期.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\47班\日期\Debug\日期.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\47班\日期\Debug\日期.lib" /MACHINE:X86 Debug\date.obj
          Debug\main.obj
@@ -11,4 +12,4 @@
 
 生成成功。
 
-已用时间 00:00:00.97
+已用时间 00:00:02.53
