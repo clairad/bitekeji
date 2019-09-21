@@ -1,4 +1,4 @@
-﻿生成启动时间为 2019/9/15 21:33:25。
+﻿生成启动时间为 2019/9/18 20:47:48。
      1>项目“D:\分享\bitekeji\班级管理\47班\0915\0915\0915.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
@@ -16,4 +16,4 @@
 
 生成成功。
 
-已用时间 00:00:09.34
+已用时间 00:00:01.60
