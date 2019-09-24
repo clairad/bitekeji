@@ -75,6 +75,11 @@ public:
 		return m_start[i];
 	}
 
+	const T & operator [] (int i) const
+	{
+		return m_start[i];
+	}
+
 	void reserve(size_t _size)
 	{
 		int _capacity = capacity();
@@ -94,10 +99,11 @@ public:
 
 		T * tmp = new T[_capacity];
 		m_endOfStorage = tmp + _capacity;
-		m_finish = tmp + size();
+		int oldsize = size();
+		m_finish = tmp + oldsize;
 		if (m_start != nullptr)
 		{
-			for (int i = 0; i < size(); i++)
+			for (int i = 0; i < oldsize; i++)
 			{
 				tmp[i] = m_start[i];
 			}
@@ -105,5 +111,122 @@ public:
 		}
 		m_start = tmp;
 	}
+
+	void resize(size_t _size, const T &val = T())
+	{
+		reserve(_size);
+
+		for (int i = size(); i < _size; i++)
+		{
+			m_start[i] = val;
+		}
+
+		m_finish = m_start + _size;
+	}
+
+	iterator insert(iterator pos, const T &val)
+	{
+		int tmp = pos - m_start;
+		reserve(size() + 1);
+		pos = m_start + tmp;
+
+		int i;
+		for (i = size() - 1; i >= pos - m_start; i--)
+		{
+			m_start[i + 1] = m_start[i];
+		}
+
+		*pos = val;
+
+		m_finish++;
+
+		return pos;
+	}
+
+	iterator insert(iterator pos, int n, const T &val)
+	{
+		int tmp = pos - m_start;
+		reserve(size() + n);
+		pos = m_start + tmp;
+
+		int i;
+		for (i = size() - 1; i >= pos - m_start; i--)
+		{
+			m_start[i + n] = m_start[i];
+		}
+
+		for (i = 0; i < n; i++)
+		{
+			pos[i] = val;
+		}
+
+		m_finish += n;
+
+		return pos;
+	}
+
+	iterator insert(iterator pos, const T * start, const T * end)
+	{
+		int tmp = pos - m_start;
+		int extsize = end - start;
+		reserve(size() + extsize);
+		pos = m_start + tmp;
+
+		int i;
+		for (i = size() - 1; i >= pos - m_start; i--)
+		{
+			m_start[i + extsize] = m_start[i];
+		}
+
+		for (i = 0; i < extsize; i++)
+		{
+			pos[i] = start[i];
+		}
+
+		m_finish += extsize;
+
+		return pos;
+	}
+
+	iterator erase(iterator pos)
+	{
+		int i;
+
+		for (i = pos - m_start; i < size() - 1; i++)
+		{
+			m_start[i] = m_start[i + 1];
+		}
+		m_finish--;
+
+		return pos;
+	}
+
+	iterator erase(iterator start, iterator end)
+	{
+		int i;
+		int extsize = end - start;
+
+		for (i = start - m_start; i < size() - extsize; i++)
+		{
+			m_start[i] = m_start[i + extsize];
+		}
+		m_finish -= extsize;
+
+		return start;
+	}
+
+	void push_back(const T &val)
+	{
+		reserve(size() + 1);
+
+		*m_finish = val;
+		m_finish++;
+	}
+
+	void pop_back()
+	{
+		m_finish--;
+	}
 };
+
 };
