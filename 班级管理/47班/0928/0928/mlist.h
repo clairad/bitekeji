@@ -214,11 +214,11 @@ public:
 
 	iterator erase(iterator start, iterator finish)
 	{
-		iterator i;
+		iterator i = start;
 
-		for (i = start; i != finish; i++)
+		while (i != finish)
 		{
-			erase(i);
+			i = erase(i);
 		}
 
 		return finish;

@@ -1,0 +1,11 @@
+list
+
+构造、insert、erase、push_back、begin、end等函数的使用，跟之前的容器没有区别
+
+不同点：
+1、insert函数不会导致迭代器失效
+2、不能进行随机访问（不存在[]重载）
+3、没有容量的概念（不存在resize reserve capacity等函数）
+
+sort：针对链表进行排序
+merge：将两个有序链表合成一个新的有序链表，被合成的链表（作为参数的链表容器）会被清空。
