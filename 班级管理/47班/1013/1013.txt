@@ -1,0 +1,52 @@
+配接器：
+
+stack
+queue
+priority_queue
+
+
+stack:
+
+默认适配器：deque
+
+可选适配器：vector list
+
+push => push_back
+pop  => pop_back
+top  => back
+
+queue：
+
+默认适配器：deque
+
+可选适配器：list
+
+push => push_back
+pop  => pop_front
+back => back
+front=> front
+
+priority_queue:
+
+#include <functional> （仿函数）
+默认适配器：vector
+默认比较方式：less  
+
+可选适配器：deque
+可选比较方式：greater
+
+#include <algorithm> （算法）
+
+构造 => make_heap
+push => push_back + push_heap
+pop  => pop_front + pop_heap
+top  => front
+
+仿函数：可以当成函数使用的类，方法是重载函数调用运算符("()")
+
+
+
+
+
+
+
