@@ -1,5 +1,6 @@
 #pragma once
 #include <stack>
+#include <queue>
 
 namespace wf{
 
@@ -62,7 +63,7 @@ public:
 
 		while (cur)
 		{
-			cout << cur->m_val;
+			cout << cur->m_val << ' ';
 
 			if (cur->m_right)
 			{
@@ -104,7 +105,7 @@ public:
 			{
 				cur = st.top();
 				st.pop();
-				cout << cur->m_val;
+				cout << cur->m_val << ' ';
 
 				cur = cur->m_right;
 			}
@@ -128,7 +129,7 @@ public:
 			while (!st.empty() && tag.top())
 			{
 				cur = st.top();
-				cout << cur->m_val;
+				cout << cur->m_val << ' ';
 				st.pop();
 				tag.pop();
 
@@ -260,6 +261,100 @@ public:
 		TreeNode<T> * t = lowestCommonAncestori(m_root->m_right->m_left->m_right, m_root->m_right);
 		cout << t->m_val;
 	}
+
+	void level_order()
+	{
+		queue<TreeNode<T> *> qu;
+		TreeNode<T> * tmp;
+
+		qu.push(m_root);
+
+		while (!qu.empty())
+		{
+			tmp = qu.front();
+			cout << tmp->m_val << ' ';
+			qu.pop();
+
+			if (tmp->m_left)
+			{
+				qu.push(tmp->m_left);
+			}
+
+			if (tmp->m_right)
+			{
+				qu.push(tmp->m_right);
+			}
+		}
+	}
+
+	void everyline_level_order()
+	{
+		queue<TreeNode<T> *> qu;
+		TreeNode<T> * tmp;
+		int length = 1;
+
+		qu.push(m_root);
+
+		while (!qu.empty())
+		{
+			for (int i = 0; i < length; i++)
+			{ 
+				tmp = qu.front();
+				cout << tmp->m_val << ' ';
+				qu.pop();
+
+				if (tmp->m_left)
+				{
+					qu.push(tmp->m_left);
+				}
+
+				if (tmp->m_right)
+				{
+					qu.push(tmp->m_right);
+				}
+			}
+			cout << endl;
+			length = qu.size();
+		}
+	}
+
+	void max_level_order()
+	{
+		queue<TreeNode<T> *> qu;
+		TreeNode<T> * tmp;
+		int length = 1;
+		T max;
+		
+		qu.push(m_root);
+
+		while (!qu.empty())
+		{
+			max = qu.front()->m_val;
+			for (int i = 0; i < length; i++)
+			{
+				tmp = qu.front();
+				
+				if (max < tmp->m_val)
+				{
+					max = tmp->m_val;
+				}
+				qu.pop();
+
+				if (tmp->m_left)
+				{
+					qu.push(tmp->m_left);
+				}
+
+				if (tmp->m_right)
+				{
+					qu.push(tmp->m_right);
+				}
+			}
+			cout << max << ' ';
+			length = qu.size();
+		}
+	}
+
 };
 
 

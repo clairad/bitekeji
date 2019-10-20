@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/10/20 16:19:05。
+     1>项目“D:\分享\bitekeji\班级管理\47班\1020\1020\1020.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\47班\1020\Debug\1020.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\47班\1020\Debug\1020.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\47班\1020\Debug\1020.lib" /MACHINE:X86 Debug\main.obj
+         Debug\main2.obj
+         Debug\main3.obj
+         Debug\main4.obj
+         Debug\main5.obj
+         Debug\p1.obj
+         1020.vcxproj -> D:\分享\bitekeji\班级管理\47班\1020\Debug\1020.exe
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\47班\1020\1020\1020.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.55
