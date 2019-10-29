@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/10/27 16:04:58。
+     1>项目“D:\分享\bitekeji\班级管理\47班\1027\1027\1027.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main4.cpp
+         main4.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\47班\1027\Release\1027.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\47班\1027\Release\1027.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\47班\1027\Release\1027.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\main2.obj
+         Release\main3.obj
+         Release\main4.obj
+         正在生成代码
+     1>LINK : warning C4743: “const TestBase::`vftable'”在“D:\����\bitekeji\�༶����\47��\1027\1027\main4.cpp”和“D:\����\bitekeji\�༶����\47��\1027\1027\main.cpp”中具有不同的大小:  20 和 8 字节
+     1>LINK : warning C4743: “TestBase::`RTTI Base Class Array'”在“D:\����\bitekeji\�༶����\47��\1027\1027\main4.cpp”和“D:\����\bitekeji\�༶����\47��\1027\1027\main.cpp”中具有不同的大小:  9 和 5 字节
+         已完成代码的生成
+         1027.vcxproj -> D:\分享\bitekeji\班级管理\47班\1027\Release\1027.exe
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\47班\1027\1027\1027.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.22
