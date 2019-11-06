@@ -13,12 +13,11 @@ rfind是从后面开始找
 
 找到了返回下标，找不到返回-1。但是，由于返回值的类型是unsigned类型，所以打印出来就成了4294967295
 
-
+※+的重载不是string容器的成员，+=才是
 
 getline是为了解决cin输入字符串碰到空格就停的问题，getline碰到回车才会停
 
+A man, a plan, a canal: Panama
 
-
-
-
+amanaplanacanalpanama
 
