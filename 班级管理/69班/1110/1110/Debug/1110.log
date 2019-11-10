@@ -1,0 +1,25 @@
+﻿生成启动时间为 2019/11/10 17:47:19。
+     1>项目“D:\分享\bitekeji\班级管理\69班\1110\1110\1110.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt d1p1.c
+         d1p1.c
+     1>d:\分享\bitekeji\班级管理\69班\1110\1110\d1p1.c(11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\69班\1110\Debug\1110.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\69班\1110\Debug\1110.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\69班\1110\Debug\1110.lib" /MACHINE:X86 Debug\d1p1.obj
+         Debug\d1p3.obj
+         Debug\d2p12.obj
+         Debug\d2p3.obj
+         Debug\d2p4.obj
+         Debug\d2p5.obj
+         Debug\d3p1.obj
+         Debug\d3p2.obj
+         Debug\d3p3.obj
+         Debug\d4p1_d1p2.obj
+         Debug\d4p2.obj
+         Debug\d4p3.obj
+         1110.vcxproj -> D:\分享\bitekeji\班级管理\69班\1110\Debug\1110.exe
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\69班\1110\1110\1110.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.62
