@@ -1,0 +1,13 @@
+﻿生成启动时间为 2019/11/18 19:27:43。
+     1>项目“D:\分享\bitekeji\班级管理\47班\每日一题\每日一题\每日一题.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\47班\每日一题\Debug\每日一题.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\47班\每日一题\Debug\每日一题.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\47班\每日一题\Debug\每日一题.lib" /MACHINE:X86 Debug\main.obj
+         每日一题.vcxproj -> D:\分享\bitekeji\班级管理\47班\每日一题\Debug\每日一题.exe
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\47班\每日一题\每日一题\每日一题.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.60
