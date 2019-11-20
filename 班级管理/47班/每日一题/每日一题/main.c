@@ -10,7 +10,7 @@ int main1()
 	return 0;
 }
 
-int main()
+int main2()
 {
 	long long a = 4294967297ull;
 

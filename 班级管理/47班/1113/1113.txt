@@ -1,22 +1,59 @@
+1、关联式容器set map
 
-前：ABDGHCEIF
-中：GDHBAEICF
+红黑树
+
+set：
+
+set<容器类型，校验规则>
+
+set:
+1、自动排序
+2、自动去重
+3、不能用中括号
+
+insert：
+可以插入单个值 返回值：pair<iterator, bool>
+erase：
+可以直接删除某个值
+count：
+可以检查某个值是否存在
 
 
-后：GHDBIEFCA
+multiset：
+
+与set的不同：
+1、不会去重，允许同样的值存在
+2、count可以数出某个值的个数
+3、删除值的时候会将所有的同值元素全部删掉
+
+map：
+
+map<键类型，值类型，校验规则>
+
+每个元素都是一个pair<键类型，值类型>
+
+基础用法参考set，可以视为给键添加了一个附加信息的set。访问pair的两个元素应该使用first和second
+
+map的中括号重载：
+
+1、如果中括号中的值跟某个键重合，则会返回该键对应的值的引用
+2、如果不重合，会创建这个键，并用值类型的默认构造函数构造对应的值，然后返回这个值的引用。
+
+中括号重载包含了at、find、insert等函数的功能，是map之所以好用的原因。
 
 
-ABCDEFGH
+multimap:
 
-前：HGEDBFCA
-中：EGBDHFAC
+与map的区别：
+1、不会去重，允许同样的键存在
+2、count可以数出某个键的个数
+3、删除键的时候会将所有的键相同的元素全部删掉
+4、不能用中括号
 
-后：EBDGACFH
 
 
-后：FDBHJIGECA
-中：FDBAEHGIJC
 
-前：ABDFCEGHIJ
 
-ABDF####CE#GH##I#J###
+
+
+
