@@ -1,0 +1,92 @@
+1、赋值运算符
+
+=
++=
+-=
+*=
+/=
+%=
+
+参数1：左值
+参数2：右值
+作用：修改左值
+返回值：左值
+
+Test & operator = (Test &a, const Test &b);
+
+Test & operator = (const Test &b);
+
+
+2、算术运算符
+
++
+-
+*
+/
+%
+
+++
+--
+
+Test operator + (const Test &a, const Test &b);
+
+Test operator + (const Test &b) const;
+
+++在前
+Test operator ++ ();
+++在后
+Test operator ++ (int);
+
+3、比较运算符
+
+<
+>
+<=
+>=
+==
+!=
+
+bool operator < (const Test &a, const Test &b);
+
+bool operator < (const Test &b) const;
+
+4、输入输出流运算符
+
+<<
+>>
+
+※不能做成员函数
+
+ostream & operator << (ostream & os, const Test &a);
+
+istream & operator >> (istream & is, const Test &a);
+
+5、在右单目
+
+[]
+()
+->
+
+int & operator[](int i);
+
+int operator()(int a, int b);
+
+Test2 * operator->();
+
+6、在左单目
+
+*
+&
+(类型)
+
+int & operator*();
+Test * operator&();
+operator int *();
+
+
+7、new、delete
+
+Test * operator new()
+
+
+

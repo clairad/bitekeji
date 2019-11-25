@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main()
+int d1p1()
 {
 	int n;
 	int i;

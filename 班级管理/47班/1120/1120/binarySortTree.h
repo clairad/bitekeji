@@ -123,7 +123,7 @@ public:
 
 		if (cur->m_left && cur->m_right)
 		{
-#if 1
+#if 0
 			TreeNode<T> * cur2 = cur->m_left;
 			TreeNode<T> * pre2 = cur;
 
@@ -151,10 +151,22 @@ public:
 					pre->m_right = cur2;
 				}
 			}
-#else
 
-#endif
 			delete cur;
+#else
+			TreeNode<T> * cur2 = cur->m_left;
+			TreeNode<T> * pre2 = cur;
+
+			if (cur2->m_right)
+			{
+				for (; cur2->m_right; pre2 = cur2, cur2 = cur2->m_right);
+				pre2->m_right = cur2->m_left;
+			}
+			cur->m_data = cur2->m_data;
+
+			delete cur2;
+#endif
+			
 		}
 		else if (cur->m_left)
 		{

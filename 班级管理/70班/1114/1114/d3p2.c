@@ -8,7 +8,7 @@ int d3p2()
 	int flag = 1;
 	for (i = 1; i <= 100; i++)
 	{
-		tmp *= flag * 1.0 / i;
+		tmp = flag * 1.0 / i;
 		flag *= -1;
 		sum += tmp;
 	}
