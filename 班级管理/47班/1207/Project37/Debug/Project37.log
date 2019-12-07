@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/12/7 11:08:03。
+     1>项目“D:\作业\Project37\Project37\Project37.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\作业\project37\project37\main.cpp(22): warning C4930: “CSomething a(void)”: 未调用原型函数(是否是有意用变量定义的?)
+     1>d:\作业\project37\project37\main.cpp(43): warning C4101: “i”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\作业\Project37\Debug\Project37.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\作业\Project37\Debug\Project37.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\作业\Project37\Debug\Project37.lib" /MACHINE:X86 Debug\main.obj
+         Project37.vcxproj -> D:\作业\Project37\Debug\Project37.exe
+     1>已完成生成项目“D:\作业\Project37\Project37\Project37.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.01
