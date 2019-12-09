@@ -169,9 +169,9 @@ public:
 				RBTreeNode<T> * grand = pre->m_parent;
 				RBTreeNode<T> * uncle;
 
-				if (pre == grand->m_left && pre->m_color == RED)
+				if (pre == grand->m_left)
 				{
-					while (pre != m_head)
+					while (pre != m_head && pre->m_color == RED)
 					{
 						grand = pre->m_parent;
 						uncle = grand->m_right;
