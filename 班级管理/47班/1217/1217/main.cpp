@@ -32,7 +32,7 @@ int test()
 	return 0;
 }
 
-int main1()
+int main()
 {
 	wf::hashTable<int, int> ht;
 
@@ -42,17 +42,15 @@ int main1()
 	ht.insert(pair<int, int>(6, 8));
 	ht.insert(pair<int, int>(12, 9));
 	ht.insert(pair<int, int>(16, 4));
-
-	ht.erase(6);
-	ht.erase(12);
-
 	ht.insert(pair<int, int>(23, 11));
 	ht.insert(pair<int, int>(27, 13));
 
+	ht.insert(pair<int, int>(33, 13));
+	ht.insert(pair<int, int>(36, 13));
 	return 0;
 }
 
-int main()
+int main1()
 {
 	wf::hashTable<string, int, wf::dealString> ht;
 
