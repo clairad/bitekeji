@@ -135,6 +135,36 @@ public:
 		}
 	}
 
+	HashBucketNode<T> * find(const T & val)
+	{
+		int hashnum = hashFunc(val);
+
+		HashBucketNode<T> * cur;
+		for (cur = m_data[hashnum]; cur; cur = cur->m_next)
+		{
+			if (cur->m_val == val)
+			{
+				return cur;
+			}
+		}
+		return nullptr;
+	}
+
+	void clear()
+	{
+		HashBucketNode<T> * tmp;
+		for (auto & head : m_data)
+		{
+			while (head)
+			{
+				tmp = head;
+				head = head->m_next;
+				delete tmp;
+			}
+		}
+		m_size = 0;
+	}
+
 	size_t capacity()
 	{
 		return s_m_primeTable[m_primePos];

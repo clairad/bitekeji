@@ -1,0 +1,27 @@
+﻿生成启动时间为 2020/2/11 11:38:49。
+     1>项目“D:\分享\bitekeji\班级管理\47班\0211\0211\0211.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(144): warning C4018: “<”: 有符号/无符号不匹配
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(142): 编译类 模板 成员函数“wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::iterator wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::begin(void)”时
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\main.cpp(33): 参见对正在编译的函数 模板 实例化“wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::iterator wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::begin(void)”的引用
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\main.cpp(15): 参见对正在编译的类 模板 实例化“wf::HashBucket<int,int,KeyofValueint,wf::dealInt>”的引用
+     1>d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(80): warning C4018: “<”: 有符号/无符号不匹配
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(74): 编译类 模板 成员函数“wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::iterator wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::iterator::operator ++(void)”时
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\main.cpp(33): 参见对正在编译的函数 模板 实例化“wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::iterator wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::iterator::operator ++(void)”的引用
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\main.cpp(17): 参见对正在编译的类 模板 实例化“wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::iterator”的引用
+     1>d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(124): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(120): 编译类 模板 成员函数“void wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::checkCapacity(void)”时
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(163): 参见对正在编译的函数 模板 实例化“void wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::checkCapacity(void)”的引用
+     1>d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(264): warning C4244: “return”: 从“__int64”转换到“size_t”，可能丢失数据
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(263): 编译类 模板 成员函数“size_t wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::capacity(void)”时
+                 d:\分享\bitekeji\班级管理\47班\0211\0211\hashbucket.h(144): 参见对正在编译的函数 模板 实例化“size_t wf::HashBucket<int,int,KeyofValueint,wf::dealInt>::capacity(void)”的引用
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\分享\bitekeji\班级管理\47班\0211\Debug\0211.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\分享\bitekeji\班级管理\47班\0211\Debug\0211.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\分享\bitekeji\班级管理\47班\0211\Debug\0211.lib" /MACHINE:X86 Debug\main.obj
+         0211.vcxproj -> D:\分享\bitekeji\班级管理\47班\0211\Debug\0211.exe
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\47班\0211\0211\0211.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.37
