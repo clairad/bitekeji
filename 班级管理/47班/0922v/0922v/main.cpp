@@ -4,6 +4,20 @@ using namespace std;
 
 int main()
 {
+	wf::vector<int> v{ 1, 2, 3, 4, 5 };
+
+	cout << v.size() << endl;
+
+	for (auto & e : v)
+	{
+		cout << e << endl;
+	}
+
+	return 0;
+}
+
+int main0()
+{
 	int a[] = { 2, 3, 4, 5 };
 	wf::vector<int> v2(a, a + 4);
 	wf::vector<int> v(v2.begin(), v2.end());

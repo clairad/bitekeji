@@ -1,5 +1,8 @@
 #pragma once
 
+#include <iostream>
+using namespace std;
+
 namespace wf
 {
 
@@ -19,6 +22,18 @@ public:
 		m_endOfStorage(nullptr)
 	{
 
+	}
+	
+	/*列表初始化适配 2月14日添加*/
+	vector(initializer_list<T> l)
+	{
+		reserve(l.size());
+
+		for (auto & e : l)
+		{
+			*m_finish = e;
+			m_finish++;
+		}
 	}
 	
 	vector(int n, const T &val = T()) :
