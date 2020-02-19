@@ -1,0 +1,62 @@
+1、隐藏、重写、覆盖、重载
+2、派生类、基类对象指针之间的赋值 dynamic_cast RTTI
+3、虚表指针
+4、菱形继承
+※如果Base1和Base2都重写了Base中的一个虚函数，那么Test类必须重写这个虚函数。
+5、抽象类
+
+class Test
+{
+	class Base1
+	{
+		* vfptr
+		* vbptr
+		static int b;
+		int a;
+	}
+	
+	class Base2
+	{
+		* vfptr
+		* vbptr
+		int a;
+	}
+	
+	int func()
+	{
+		Base1::a
+	}
+}
+
+
+
+class Base2 : public Base
+{
+	* vfptr
+	* vbptr
+	int a;
+}
+
+class Base
+{
+
+}
+
+int Base1::b = 0;
+
+
+1、throw如果找不到catch怎么办？
+2、auto_ptr、unique_ptr、shared_ptr之间的区别是什么？
+3、shared_ptr是怎么实现的？如何解决shared_ptr中包含自身导致无法释放的问题？
+4、C++类型转换的四个关键字是什么？哪些是要执行运行时类型检查的？
+5、explicit关键字功能是什么？
+
+
+
+
+
+
+
+
+
+

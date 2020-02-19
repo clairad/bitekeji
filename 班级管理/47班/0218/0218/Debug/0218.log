@@ -1,0 +1,12 @@
+﻿生成启动时间为 2020/2/18 11:56:30。
+     1>项目“D:\分享\bitekeji\班级管理\47班\0218\0218\0218.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\分享\bitekeji\班级管理\47班\0218\0218\main.cpp(21): error C2440: “初始化”: 无法从“volatile const int”转换为“int &&”
+                 转换丢失限定符
+     1>已完成生成项目“D:\分享\bitekeji\班级管理\47班\0218\0218\0218.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.93
